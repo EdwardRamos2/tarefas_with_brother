@@ -1,27 +1,29 @@
 #!/usr/bin/env python
 #Autor: Edward Ramos
+#Date: 09/26/2016
 
 
 def mochila2():
-        print("Itens da mochila a serem inseridos:  \n")
-        print("Insert o 1 produto! Categoria higiene:\n")
-        item_1 = str(raw_input("Insert produto!:"))
+        if 0 == 0:
+            print("Itens da mochila a serem inseridos:  \n")
+            print("Insert o 1 produto! Categoria higiene:\n")
+            item_1 = str(raw_input("Insert produto!:"))
         if item_1 != 0:
-            print("Produto inserido com sucesso!\n")
+            print("(+) Produto inserido com sucesso!\n")
         else:
             print("Next")
 
         print("Insert o 2 produto! Categora roupa:\n")
         item_2 = str(raw_input("Insert produto!:\n"))
         if item_2 != 0:
-            print("Produto inserido com sucesso!\n")
+            print("(+) Produto inserido com sucesso!\n")
         else:
             print("Next")
 
         print("Insert o 3 produto! Categoria acessorios:\n")
         item_3 = str(raw_input("Insert produto!:\n"))
         if item_3 != 0:
-            print("Produto inserido com sucesso!\n")
+            print("(+) Produto inserido com sucesso!\n")
         else:
             print("Next")
 
@@ -47,13 +49,13 @@ def adicional():
 
         alimento = str(raw_input("Insert 1 ALIMENTO"))
         if alimento != 0:
-            print("Alimento inserido com sucesso!\n'")
+            print("(+) Alimento inserido com sucesso!\n'")
         else:
             print("Next")
 
         lanche = str(raw_input("Insert 1 LANCHE"))
         if lanche != 0:
-            print("Lanche insrido com sucesso!\n")
+            print("(+) Lanche insrido com sucesso!\n")
         else:
             print("Next")
 
