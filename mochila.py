@@ -1,6 +1,11 @@
 #!/usr/bin/env python
-#Autor: Edward Ramos
-#Date: 09/26/2016
+print("####################################################################")
+print("####################  Autor: Edward Ramos  #########################")
+print("####################  Date: 09/26/2016     #########################")
+print("####################################################################")
+print("####################################################################")
+
+
 
 
 def mochila2():
@@ -9,6 +14,7 @@ def mochila2():
             print("Insert o 1 produto! Categoria higiene:\n")
             item_1 = str(raw_input("Insert produto!:"))
         if item_1 != 0:
+            print
             print("(+) Produto inserido com sucesso!\n")
         else:
             print("Next")
@@ -73,7 +79,6 @@ def adicional():
 print(adicional())
 
 print("The end")
-
 
 
 
